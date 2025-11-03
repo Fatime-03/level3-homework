@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int N,a=1,b=1;
+  cout<<"nece element gosterilsin";
+  cin>>N;
+  for(int i=2;i<=N;i++){
+  a=a+i;
+}
+cout<<"a="<<a;
+    return 0;
+}
