@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n, original, reverse = 0, d;
+    cout << "Ədədi daxil et: ";
+    cin >> n;
+
+    original = n;
+    while (n > 0) {
+        d = n % 10;
+        reverse = reverse * 10 + d;
+        n /= 10;
+    }
+
+    cout << "Tərsi: " << reverse << endl;
+    if (original == reverse) {
+        cout << "Bu ədəd palindromdur.";
+    } else {
+        cout << "Bu ədəd palindrom deyil.";
+    }
+
+    return 0;
+}
