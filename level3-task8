@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main() {
+    int a;
+    string b="";
+    int c=0;
+    cout<<"eded daxil edin";
+    cin>>a;
+    while(a!=0){
+        c=a%10;
+        b=b+to_string (c);
+        a=a/10;
+        
+
+    }
+    cout<<"b="<<b;
+    return 0;
+}
