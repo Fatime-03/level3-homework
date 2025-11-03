@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+int a=1;
+int n;
+cout<<" eded daxil edin";
+cin>>n;
+int b=1;
+for (a;a<=n;++a){
+     b=b*a;
+
+}
+   cout<<b;
+return 0;
+}
