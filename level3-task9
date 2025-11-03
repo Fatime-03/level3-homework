@@ -1,0 +1,26 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+    int a,i=2,b=0;
+    cout<<"eded daxil edin";
+    cin>>a;
+
+    
+for (i;i<=sqrt(a);++i){
+if(a%i==0){
+    b=1;
+    break;
+}
+}
+
+if (b=0){
+        cout<<"sadedir";
+    }
+ else{
+        cout<<"sade deyil";
+    }
+
+    
+    return 0;
+}
